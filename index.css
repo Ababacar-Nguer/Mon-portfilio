@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'time new roman', times, serif;
+}
+.logo img{
+    width: 200px;
+    height: 100px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    background-color: rgb(43, 171, 214);
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+li a{
+   text-decoration: none;
+   font-size: 20xp;
+   background-color: white;
+   color:black ;
+   padding: 5px;
+   border-radius: 10px; 
+}
+li a:hover{
+    background-color:black;
+    color:white;
+}
+/*Debut de A propos*/
+.container img{
+    width: 200Px;
+    height: 300px;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.container p{
+    font-size: 20px;
+}
+section h1{
+ text-align: center;
+ text-decoration: underline;
+}
+/* Debut competences*/
+.item{
+    display: flex;
+    margin-bottom: 10px;
+}
+.items{
+    display: flex;
+    margin-bottom: 10px;
+}
+.max{
+    width: 200px;
+    background-color: rgb(135, 141, 141);
+    height: 20px;
+    border-radius: 10px;
+}
+.valeur1{
+ width: 95%;
+ height: 20px;
+ background-color: blue;
+ border-radius: 10px;
+}
+.valeur2{
+ width: 60%;
+ height: 20px;
+ background-color: red;
+ border-radius: 10px;
+}
+.valeur3{
+ width: 70%;
+ height: 20px;
+ background-color: green;
+ border-radius: 10px;
+}
+.valeur4{
+ width: 70%;
+ height: 20px;
+ background-color: yellow;
+ border-radius: 10px;
+}
+.valeur5{
+ width: 50%;
+ height: 20px;
+ background-color: violet;
+ border-radius: 10px;
+}
+.valeur6{
+ width: 85%;
+ height: 20px;
+ background-color: orange;
+ border-radius: 10px;
+}
+.reseau img{
+ border-radius: 10px;   
+}
+.last{
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+}
+.button{
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+} 
+.MES input{
+width: 200px;
+height: 70px;
+}
+.fieldset{
+    border-radius: 10px;
+}
+.toto{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.tata{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.reseaux{
+justify-content: start;
+}
